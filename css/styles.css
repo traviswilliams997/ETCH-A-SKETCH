@@ -1,10 +1,10 @@
 .col{
    
-    background-color: aqua;
-    border: 1px solid red;
-    width: 50px;
+    background-color: white;
+     /* border: 1px solid red;  */
+    width: 70px;
 }
 div.row{
-    height: 50px;
-    border: 1px solid black;
+    height: 60px;
+    
 }
