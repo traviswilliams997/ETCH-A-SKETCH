@@ -1,5 +1,8 @@
-const container = document.createElement('div');
-container.classList.add('#container');
+const container = document.querySelector('#container');
+
+
+
+
 const row1 = document.createElement('div');
 row1.classList.add('#row1');
 container.appendChild(row1);
@@ -20,7 +23,7 @@ row6.classList.add('#row6');
 container.appendChild(row6);
 const row7 = document.createElement('div');
 row7.classList.add('#row7');
-container.appendChild(row8);
+container.appendChild(row7);
 const row8 = document.createElement('div');
 row8.classList.add('#row8');
 container.appendChild(row8);
@@ -104,32 +107,5 @@ row1.appendChild(row1col16);
 
 
 
-    const btnrock = document.querySelector('#rock');
-    
-    
-   
-    const resultscontainer = document.querySelector('#resultscontainer');
-    const scorecontainer = document.querySelector('#scorecontainer');
-  
-    const score = document.createElement('div');
-    score.textContent = ` Player score is ${ playerScore }. Computer  score is ${ computerScore }. `;
-    scorecontainer.appendChild(score);
-
-    //button for player to choose rock
-    btnrock.addEventListener('click', function() { 
-        const results = document.createElement('div');
-        results.classList.add('results');
-        let whoWon = playRound('ROCK', computerPlay());
-        results.textContent = ` ${ whoWon } `;
-
-      
-            score.textContent = ` Player score is ${ playerScore }. Computer  score is ${ computerScore }. `;
-            scorecontainer.appendChild(score);
-
-
-            resultscontainer.appendChild(results);
-        
-   
-    });
    
   
