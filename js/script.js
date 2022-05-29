@@ -1,7 +1,20 @@
+
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', () => {
+      let gridSize = prompt('Enter number of squares per side for grid ...Max is 100');
+    // let keepGoing = true;
+    // while(keepGoing){
+ 
+    //         if(gridSize <= 100){
+    //             keepGoing = false;
+    //         }
+    // }
+
 const container = document.querySelector('#container');
 
+
 //makes 16 rows and stores in container div
-for(let i = 1; i <= 16; i++){
+for(let i = 1; i <= gridSize; i++){
 const rows = document.createElement('div');
 rows.classList.add(`row${i}`, 'row');
 container.appendChild(rows);
@@ -16,10 +29,10 @@ const allRows = document.querySelectorAll('div.row').forEach(element => {
 
 
 //adds 16 columns to each row 
-for(let a = 1; a <= 16; a++ ){
+for(let a = 1; a <= gridSize; a++ ){
     const cols = document.querySelector(`div.row${a}`);
 
-    for(let i = 1; i <= 16; i++){
+    for(let i = 1; i <= gridSize; i++){
         const col = document.createElement('div');
         col.classList.add('col',`row1col${i}`);
         cols.appendChild(col);
@@ -37,18 +50,9 @@ for (let i = 0; i < hover.length; i++) {
 }
 
 
-// hover.addEventListener("mouseover", func, false);
-// hover.addEventListener("mouseout", func1, false);
+  
+});
 
-// function func()
-// {  
-//    hover.setAttribute("style", "background-color: black;")
-// }
-
-// function func1()
-// {  
-//    hover.setAttribute("style", "background-color: white;")
-// }
 
 
 
