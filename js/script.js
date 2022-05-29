@@ -1,14 +1,18 @@
 
 const btn = document.querySelector('#btn');
 btn.addEventListener('click', () => {
-      let gridSize = prompt('Enter number of squares per side for grid ...Max is 100');
-    // let keepGoing = true;
-    // while(keepGoing){
- 
-    //         if(gridSize <= 100){
-    //             keepGoing = false;
-    //         }
-    // }
+    let gridSize = 0;
+    let keepGoing = true;
+
+    //forces user to enter appropraite gridsize
+    while(keepGoing){
+
+         gridSize = prompt('Enter number of squares per side for grid ...Max value is 100');
+
+            if(gridSize <= 100){
+                keepGoing = false;
+            }
+    }
 
 const container = document.querySelector('#container');
 
@@ -50,7 +54,7 @@ for (let i = 0; i < hover.length; i++) {
 }
 
 
-  
+//end of button event listener  
 });
 
 
