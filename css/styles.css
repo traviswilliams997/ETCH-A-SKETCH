@@ -37,12 +37,12 @@ div.row{
 #container{   
     height: 700px;
     width: 700px;
-    margin-top: 40px;
+    margin-top: 20px;
    
     display: flex;
     flex-direction: column;
     background-color: #dfc2a9;
-    border: 10px solid brown;
+    border: 20px solid brown;
 }
 button{
     height: 50px;
