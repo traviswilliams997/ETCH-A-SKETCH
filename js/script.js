@@ -44,7 +44,7 @@ for(let a = 1; a <= gridSize; a++ ){
 
 }
 
-// to hover when mouuse over
+// to hover when mouse over
 const hover = document.querySelectorAll('.col');
 
 for (let i = 0; i < hover.length; i++) {
@@ -54,8 +54,21 @@ for (let i = 0; i < hover.length; i++) {
 }
 
 
+
+    
+
+
 //end of button event listener  
 });
+
+//reloads page when clear button is clicked
+const clearbtn = document.querySelector('#clear');
+clearbtn.addEventListener('click', () => {
+    window.location.reload();
+});
+
+
+
 
 
 
