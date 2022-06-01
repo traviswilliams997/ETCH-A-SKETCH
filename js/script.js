@@ -7,7 +7,7 @@ btn.addEventListener('click', () => {
     //forces user to enter appropraite gridsize
     while(keepGoing){
 
-         gridSize = prompt('Enter number of squares per side for grid ...Max value is 100');
+         gridSize = prompt('Enter number of squares per side for grid (Max value:100)');
 
             if(gridSize <= 100){
                 keepGoing = false;
