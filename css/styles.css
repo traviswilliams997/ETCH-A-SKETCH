@@ -13,9 +13,10 @@ body{
 h1{
     color: brown;
     font-size: 48px;
+    font-weight: bold;
 }
 .col{
-    background-color:  sandybrown;
+    background-color:  sandybrown;  
      flex-grow: 1;
 }
 
