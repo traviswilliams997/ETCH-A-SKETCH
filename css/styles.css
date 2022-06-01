@@ -5,8 +5,10 @@ body, html {
     width: 100%;
 }
 body{
-    background-color: rgb(179, 244, 248);
-    /* background-image: ; */
+     background: url(../img/beach.png); 
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
 }
 h1{
     color: brown;
