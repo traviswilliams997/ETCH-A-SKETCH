@@ -49,7 +49,7 @@ const hover = document.querySelectorAll('.col');
 
 for (let i = 0; i < hover.length; i++) {
     hover[i].addEventListener("mouseover", function() {
-        hover[i].setAttribute("style", "background-color: black;") 
+        hover[i].setAttribute("style", "background-color: burlywood;") 
     });
 }
 
