@@ -12,8 +12,13 @@ body{
 }
 h1{
     color: brown;
+    background-color: lightblue;
+    border: 5px white solid;
+    border-radius: 2px;
     font-size: 48px;
     font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;;
 }
 .col{
     background-color:  sandybrown;  
@@ -32,10 +37,34 @@ div.row{
 #container{   
     height: 700px;
     width: 700px;
+    margin-top: 20px;
    
     display: flex;
     flex-direction: column;
     background-color: sandybrown;
     border: 10px solid brown;
 }
+button{
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
 
+
+}
+button:hover {
+    height: 55px;
+    width: 110px;
+    margin-top: 20px;
+    border-radius: 6px;
+    background-color: brown;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
