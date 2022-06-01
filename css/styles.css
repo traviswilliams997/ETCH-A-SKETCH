@@ -21,7 +21,7 @@ h1{
     padding-right: 10px;;
 }
 .col{
-    background-color:  rgb(201, 152, 109);  
+    background-color:  #dfc2a9;  
      flex-grow: 1;
 }
 
@@ -37,11 +37,11 @@ div.row{
 #container{   
     height: 700px;
     width: 700px;
-    margin-top: 20px;
+    margin-top: 40px;
    
     display: flex;
     flex-direction: column;
-    background-color: rgb(201, 152, 109);
+    background-color: #dfc2a9;
     border: 10px solid brown;
 }
 button{
